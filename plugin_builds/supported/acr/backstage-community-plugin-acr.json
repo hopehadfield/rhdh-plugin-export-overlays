@@ -1,8 +1,8 @@
 {
   "backstage-community-plugin-acr": {
     "workspacePath": "acr/plugins/acr",
-    "registryReference": "quay.io/rhdh/backstage-community-plugin-acr:1.10--1.24.1",
-    "digest": "sha256:7c06a8206662415c192e360f058662b71f24f9a0140ab7cf788b50ce67a22291",
+    "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-acr:bs_1.49.4__1.24.1",
+    "digest": "sha256:67ae88524ce03553a5dff762a84927ce0e899ea21d76b89f79ed939c47b59330",
     "build-date": "2026-05-22T19:48:02Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ a7bb86b75564741f484bfddd5bd2af3bcabfa7b9",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",

@@ -1,8 +1,8 @@
 {
   "backstage-community-plugin-scaffolder-backend-module-regex": {
-    "workspacePath": "scaffolder-backend-module-regex/backstage-community-plugin-scaffolder-backend-module-regex",
-    "registryReference": "quay.io/rhdh/backstage-community-plugin-scaffolder-backend-module-regex:1.10--2.15.1",
-    "digest": "sha256:464a06c6cf896c3d737ae757b7e51e6a7535a781a803c47a5f13833e191f0548",
+    "workspacePath": "scaffolder-backend-module-regex/plugins/regex-actions",
+    "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-scaffolder-backend-module-regex:bs_1.49.4__2.15.1",
+    "digest": "sha256:febed9a5a0066359decfbb47a26c1d2b0d87ba16029bd8590ed8ed6ea5b33592",
     "build-date": "2026-05-27T17:37:41Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ 9d0195bb8b4c4ad2a168fa43fa54e53b6c589494",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",

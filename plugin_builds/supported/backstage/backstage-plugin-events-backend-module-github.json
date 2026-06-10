@@ -1,8 +1,8 @@
 {
   "backstage-plugin-events-backend-module-github": {
     "workspacePath": "backstage/plugins/events-backend-module-github",
-    "registryReference": "quay.io/rhdh/backstage-plugin-events-backend-module-github:1.10--0.4.10",
-    "digest": "sha256:aaab9431194fbf3f582ceffcd9af2f8bc8dc3a8744789648a8a00cfbe7bae4f8",
+    "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-plugin-events-backend-module-github:bs_1.49.4__0.4.10",
+    "digest": "sha256:8e16d643e555c5252bba5c5f18dbea2449bff7215d4de398aeb825df8274410d",
     "build-date": "2026-05-27T17:39:18Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ 9d0195bb8b4c4ad2a168fa43fa54e53b6c589494",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",

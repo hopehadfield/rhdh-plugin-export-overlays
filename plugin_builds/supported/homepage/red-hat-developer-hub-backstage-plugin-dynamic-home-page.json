@@ -1,8 +1,8 @@
 {
   "red-hat-developer-hub-backstage-plugin-dynamic-home-page": {
     "workspacePath": "homepage/plugins/dynamic-home-page",
-    "registryReference": "quay.io/rhdh/red-hat-developer-hub-backstage-plugin-dynamic-home-page:1.10--1.13.1",
-    "digest": "sha256:dc27e9a1419970f7563b68acc5b5a1d64f606055ca66b72c8298b3283e441cda",
+    "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-dynamic-home-page:bs_1.49.4__1.13.1",
+    "digest": "sha256:e6bcae3bdcf20285f80a128a6a6cafc95160d3b616ab14577a2bcb6c661b5a97",
     "build-date": "2026-05-22T19:40:51Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ a7bb86b75564741f484bfddd5bd2af3bcabfa7b9",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",

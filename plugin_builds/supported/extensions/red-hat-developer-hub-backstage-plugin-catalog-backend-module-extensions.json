@@ -1,8 +1,8 @@
 {
   "red-hat-developer-hub-backstage-plugin-catalog-backend-module-extensions": {
     "workspacePath": "extensions/plugins/extensions",
-    "registryReference": "quay.io/rhdh/red-hat-developer-hub-backstage-plugin-catalog-backend-module-extensions:1.10--0.17.1",
-    "digest": "sha256:8504cc9d221329c255b225a8753f3c5eafb239aba22fe1387df1251264ade9dd",
+    "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-catalog-backend-module-extensions:bs_1.49.4__0.17.1",
+    "digest": "sha256:fb66fc0e86fbf58529213287bb35b1216b4d276a8950a5f53c3433462d81e83a",
     "build-date": "2026-05-22T19:43:07Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ a7bb86b75564741f484bfddd5bd2af3bcabfa7b9",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",
