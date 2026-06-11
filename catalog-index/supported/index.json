@@ -432,7 +432,7 @@
   },
   "red-hat-developer-hub-backstage-plugin-dynamic-home-page": {
     "workspacePath": "homepage/plugins/dynamic-home-page",
-    "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-dynamic-home-page@sha256:e6bcae3bdcf20285f80a128a6a6cafc95160d3b616ab14577a2bcb6c661b5a97",
+    "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-dynamic-home-page@sha256:47faed2cfd680cb0fa9ccf059517046456405da956658c24b0374aa672b1eef9",
     "build-date": "2026-05-22T19:40:51Z",
     "vcs-ref": "70ff6cf52d89bf01b44060ef8364169e44899ac6",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ a7bb86b75564741f484bfddd5bd2af3bcabfa7b9",
@@ -487,7 +487,7 @@
   },
   "red-hat-developer-hub-backstage-plugin-homepage-backend": {
     "workspacePath": "homepage/plugins/homepage-backend",
-    "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-homepage-backend@sha256:21c8ac8ee21b61170fcf60013ae7b47dbad9b7ebea92364a553bc0674484998c",
+    "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-homepage-backend@sha256:e40758982d193bdecad2de1b63e00e18cec6abebf30ac563a62c25a636107336",
     "build-date": "2026-05-22T19:50:42Z",
     "vcs-ref": "70ff6cf52d89bf01b44060ef8364169e44899ac6",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ a7bb86b75564741f484bfddd5bd2af3bcabfa7b9",
