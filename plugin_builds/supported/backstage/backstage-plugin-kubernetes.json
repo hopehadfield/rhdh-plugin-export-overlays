@@ -2,7 +2,7 @@
   "backstage-plugin-kubernetes": {
     "workspacePath": "backstage/plugins/kubernetes",
     "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-plugin-kubernetes:bs_1.52.0__0.12.20",
-    "digest": "sha256:5afd0d5bab60619299d2b398d6cd9f1d9025e93e2ecbd2a51a0b1153cee9d242",
+    "digest": "sha256:1d8d8048b873b4cd15aebd32958f5684f71f713665088409f72db4aedb663b6b",
     "build-date": "2026-05-27T17:29:29Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ 9d0195bb8b4c4ad2a168fa43fa54e53b6c589494",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",

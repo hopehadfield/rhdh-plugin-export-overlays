@@ -18,12 +18,12 @@ metadata:
 spec:
   packageName: '@red-hat-developer-hub/backstage-plugin-orchestrator'
 
-  # Tag: bs_1.49.4__5.7.13, Build date: 2026-05-22T19:45:48Z
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator@sha256:03d13c10e4320ef9c4e2277f97cbea301771c588f3b86d987267f5049e5637be"
-  version: 5.7.13
+  # Tag: bs_1.52.0__5.9.3, Build date: 2026-05-22T19:45:48Z
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator@sha256:8dc7ad77f12830914a439e642d89d3776ecfcbfef2cd8f0b00f212786d7d0614"
+  version: 5.9.3
   backstage:
     role: frontend-plugin
-    supportedVersions: 1.49.4
+    supportedVersions: 1.52.0
   author: Red Hat
   support: generally-available
   lifecycle: active
@@ -64,6 +64,6 @@ spec:
                   config:
                     layout:
                       gridColumn: 1 / -1
-                      if:
-                        anyOf:
-                          - IsOrchestratorCatalogTabAvailable
+                    if:
+                      anyOf:
+                        - hasAnnotation: orchestrator.io/workflows
