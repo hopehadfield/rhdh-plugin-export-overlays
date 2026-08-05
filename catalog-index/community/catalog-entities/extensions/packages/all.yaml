@@ -83,6 +83,7 @@ spec:
     - ./backstage-community-plugin-todo.yaml
     - ./backstage-community-plugin-topology.yaml
     - ./backstage-community-search-backend-module-adr.yaml
+    - ./backstage-plugin-app-visualizer.yaml
     - ./backstage-plugin-auth.yaml
     - ./backstage-plugin-catalog-backend-module-bitbucket-cloud.yaml
     - ./backstage-plugin-catalog-backend-module-bitbucket-server.yaml
@@ -129,10 +130,10 @@ spec:
     - ./proberaum-backstage-plugin-github-notifications-backend.yaml
     - ./proberaum-backstage-plugin-icon-viewer.yaml
     - ./red-hat-developer-hub-backstage-plugin-app-auth.yaml
+    - ./red-hat-developer-hub-backstage-plugin-app-defaults.yaml
     - ./red-hat-developer-hub-backstage-plugin-app-integrations.yaml
     - ./red-hat-developer-hub-backstage-plugin-bulk-import-backend.yaml
     - ./red-hat-developer-hub-backstage-plugin-bulk-import.yaml
-    - ./red-hat-developer-hub-backstage-plugin-dynamic-home-page.yaml
     - ./red-hat-developer-hub-backstage-plugin-global-header.yaml
     - ./red-hat-developer-hub-backstage-plugin-homepage-backend.yaml
     - ./red-hat-developer-hub-backstage-plugin-homepage.yaml
@@ -144,7 +145,6 @@ spec:
     - ./red-hat-developer-hub-backstage-plugin-software-catalog-mcp-extras.yaml
     - ./red-hat-developer-hub-backstage-plugin-techdocs-mcp-extras.yaml
     - ./red-hat-developer-hub-backstage-plugin-theme.yaml
-    - ./red-hat-developer-hub-backstage-plugin-translations-backend.yaml
     - ./red-hat-developer-hub-backstage-plugin-translations.yaml
     - ./red-hat-developer-hub-backstage-plugin-x2a-backend.yaml
     - ./red-hat-developer-hub-backstage-plugin-x2a-dcr.yaml
@@ -166,8 +166,8 @@ spec:
     - ./rhdh-bsp-ctlg-backend-mod-extensions.yaml
     - ./rhdh-bsp-extensions-backend.yaml
     - ./rhdh-bsp-extensions.yaml
-    - ./rhdh-bsp-lightspeed-backend.yaml
-    - ./rhdh-bsp-lightspeed.yaml
+    - ./rhdh-bsp-intelligent-assistant-backend.yaml
+    - ./rhdh-bsp-intelligent-assistant.yaml
     - ./rhdh-bsp-orchestrator-backend-mod-loki.yaml
     - ./rhdh-bsp-orchestrator-backend.yaml
     - ./rhdh-bsp-orchestrator-form-widgets.yaml

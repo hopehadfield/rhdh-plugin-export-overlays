@@ -16,7 +16,8 @@ metadata:
   tags: []
 spec:
   packageName: "@backstage/plugin-signals-backend"
-  dynamicArtifact: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-plugin-signals-backend:bs_1.52.0__0.3.16
+  # Tag: bs_1.52.0__0.3.16, Build date: 2026-05-27T16:53:08Z
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-plugin-signals-backend@sha256:fb92dfc443e93769d44fc2e51a33643d6fb044a7642d14aceb0be7a49b38e947"
   version: 0.3.16
   backstage:
     role: backend-plugin

@@ -17,11 +17,12 @@ metadata:
     - analytics
 spec:
   packageName: "@red-hat-developer-hub/backstage-plugin-scorecard-backend-module-github"
-  dynamicArtifact: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend-module-github:bs_1.49.4__2.7.8
-  version: 2.7.8
+  # Tag: bs_1.52.0__4.1.0
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend-module-github@sha256:560ca80b76e0223542141d0d1ef93eb9f4e6a19136764ea0d84cfbbd9a41fd09"
+  version: 4.1.0
   backstage:
     role: backend-plugin-module
-    supportedVersions: 1.49.4
+    supportedVersions: 1.52.0
   author: Red Hat
   support: dev-preview
   lifecycle: active
@@ -31,9 +32,9 @@ spec:
     - title: Optional GitHub open-PR scorecard schedule
       content:
         scorecard:
-          plugins:
+          metricProviders:
             github:
-              open_prs:
+              openPRs:
                 schedule:
                   frequency: { hours: 4 }
                   timeout: { minutes: 10 }
