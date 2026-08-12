@@ -2,7 +2,7 @@
   "backstage-community-plugin-analytics-provider-segment": {
     "workspacePath": "analytics/plugins/analytics-provider-segment",
     "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-analytics-provider-segment:bs_1.52.0__1.30.0",
-    "digest": "sha256:d32af6fb0d14729275f105d73594557ab499a2548b2e5e5e5b3bdb96d8739bd0",
+    "digest": "sha256:bc4f64135a19bc8b6148062beae091e995326c3ecab7a150fcac909df7e1725a",
     "build-date": "2026-05-22T19:54:37Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ a7bb86b75564741f484bfddd5bd2af3bcabfa7b9",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",
