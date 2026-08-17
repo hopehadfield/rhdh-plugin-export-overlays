@@ -18,9 +18,9 @@ metadata:
 spec:
   packageName: '@red-hat-developer-hub/backstage-plugin-orchestrator'
 
-  # Tag: bs_1.52.0__5.10.0, Build date: 2026-05-22T19:45:48Z
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator@sha256:00c56b859a3cfb89d3818f7df356a81c155124b2bda28459239c835dc8e09123"
-  version: 5.10.0
+  # Tag: bs_1.52.0__6.0.0, Build date: 2026-05-22T19:45:48Z
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator@sha256:9bf346736138bd3e803623bbcf202da2cfc7d187277fdf308ea7927588560cf0"
+  version: 6.0.0
   backstage:
     role: frontend-plugin
     supportedVersions: 1.52.0
@@ -35,15 +35,18 @@ spec:
         dynamicPlugins:
           frontend:
             red-hat-developer-hub.backstage-plugin-orchestrator:
+              # Legacy exports require `module: Legacy` — they are not available on the default module.
               translationResources:
                 - importName: orchestratorTranslations
-                  module: Alpha
+                  module: Legacy
                   ref: orchestratorTranslationRef
               appIcons:
                 - importName: OrchestratorIcon
                   name: orchestratorIcon
+                  module: Legacy
               dynamicRoutes:
                 - importName: OrchestratorPage
+                  module: Legacy
                   menuItem:
                     icon: orchestratorIcon
                     text: Orchestrator
@@ -61,6 +64,7 @@ spec:
               mountPoints:
                 - mountPoint: entity.page.workflows/cards
                   importName: OrchestratorCatalogTab
+                  module: Legacy
                   config:
                     layout:
                       gridColumn: 1 / -1

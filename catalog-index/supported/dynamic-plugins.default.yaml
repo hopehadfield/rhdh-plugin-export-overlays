@@ -854,7 +854,7 @@ plugins:
   - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-plugin-signals-backend@sha256:4bce63f0fd0e2a514fb728630bf0948c77382e9e29758a3405c8f7b55d04cfcf
     enabled: false
   # Tag: bs_1.52.0__8.0.0, Build date: 2026-05-22T19:49:03Z
-  - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-bulk-import@sha256:ae0d17ed8895ee76339e56ce152e45373931f7cab85085e353804237fdc80d03
+  - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-bulk-import@sha256:82e6e89137e6782ab7e0d648f989245074d60d5b5aa82e425740b3f2e20d5154
     enabled: false
     pluginConfig:
       dynamicPlugins:
@@ -862,20 +862,21 @@ plugins:
           red-hat-developer-hub.backstage-plugin-bulk-import:
             translationResources:
               - importName: bulkImportTranslations
-                module: Alpha
+                module: Legacy
                 ref: bulkImportTranslationRef
             appIcons:
               - name: bulkImportIcon
+                module: Legacy
                 importName: BulkImportIcon
             dynamicRoutes:
               - path: /bulk-import
                 importName: BulkImportPage
+                module: Legacy
                 menuItem:
                   icon: bulkImportIcon
                   text: Bulk import
-                  textKey: menuItem.bulkImport
   # Tag: bs_1.52.0__8.0.0, Build date: 2026-05-22T19:40:00Z
-  - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-bulk-import-backend@sha256:2d44eec422749d7b74854afab3b69a02ea589d456b36da954ab21082e860bbae
+  - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-bulk-import-backend@sha256:51045a9a7d16c955300ad08b3666913f4ded500b2ef3b3f218d88cd72e61bcaa
     enabled: false
     pluginConfig:
       bulkImport:
@@ -946,22 +947,25 @@ plugins:
         # mcpServers:
         #  - name: <mcp server name>
         #    token: ${MCP_TOKEN}
-  # Tag: bs_1.52.0__5.10.0, Build date: 2026-05-22T19:45:48Z
-  - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator@sha256:00c56b859a3cfb89d3818f7df356a81c155124b2bda28459239c835dc8e09123
+  # Tag: bs_1.52.0__6.0.0, Build date: 2026-05-22T19:45:48Z
+  - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator@sha256:9bf346736138bd3e803623bbcf202da2cfc7d187277fdf308ea7927588560cf0
     enabled: false
     pluginConfig:
       dynamicPlugins:
         frontend:
           red-hat-developer-hub.backstage-plugin-orchestrator:
+            # Legacy exports require `module: Legacy` — they are not available on the default module.
             translationResources:
               - importName: orchestratorTranslations
-                module: Alpha
+                module: Legacy
                 ref: orchestratorTranslationRef
             appIcons:
               - importName: OrchestratorIcon
                 name: orchestratorIcon
+                module: Legacy
             dynamicRoutes:
               - importName: OrchestratorPage
+                module: Legacy
                 menuItem:
                   icon: orchestratorIcon
                   text: Orchestrator
@@ -979,21 +983,22 @@ plugins:
             mountPoints:
               - mountPoint: entity.page.workflows/cards
                 importName: OrchestratorCatalogTab
+                module: Legacy
                 config:
                   layout:
                     gridColumn: 1 / -1
                   if:
                     anyOf:
                       - hasAnnotation: orchestrator.io/workflows
-  # Tag: bs_1.52.0__8.11.0, Build date: 2026-05-22T19:50:33Z
-  - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator-backend@sha256:2a3dffd036886db4b1ee52a376a0bcebc72b0423ee1e15f69a34b834f358b696
+  # Tag: bs_1.52.0__8.12.1, Build date: 2026-05-22T19:50:33Z
+  - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator-backend@sha256:fba17c18f3c7654241401a13ed023612df13ad5954fdc70f608b53f0b9c89b1c
     enabled: false
     pluginConfig:
       orchestrator:
         dataIndexService:
           url: http://sonataflow-platform-data-index-service
-  # Tag: bs_1.52.0__1.4.0, Build date: 2026-05-22T19:50:24Z
-  - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator-backend-module-loki@sha256:9c1dffcfcf2b41fc3245553c45ec0e6ee0640556c4f56c657034f8b40634c2f9
+  # Tag: bs_1.52.0__1.4.1, Build date: 2026-05-22T19:50:24Z
+  - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator-backend-module-loki@sha256:e720b40957336e73b931afba05432e6509a3e964337a7f1315f31c35c493b02f
     enabled: false
     pluginConfig:
       orchestrator:
@@ -1001,15 +1006,17 @@ plugins:
           loki:
             baseUrl: ${LOKI_BASE_URL}
             token: ${AUTH_TOKEN}
-  # Tag: bs_1.52.0__1.12.0, Build date: 2026-05-22T19:53:44Z
-  - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator-form-widgets@sha256:ceecaec82f9267086d9e3aa23c21fb16724e2b457e50545f5295992843c2cd0f
+  # Tag: bs_1.52.0__2.0.0, Build date: 2026-05-22T19:53:44Z
+  - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator-form-widgets@sha256:b0722a7da632d38439d479ee61a2e91402c3a27e6a801de218f91ea3b577e33b
     enabled: false
     pluginConfig:
       dynamicPlugins:
         frontend:
-          red-hat-developer-hub.backstage-plugin-orchestrator-form-widgets: {}
-  # Tag: bs_1.52.0__1.7.0, Build date: 2026-05-26T12:37:27Z
-  - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scaffolder-backend-module-orchestrator@sha256:bbf0151dff8e8555af54a857d25010edbd69a71a82f63b2af7c205aaa6f459cb
+          # OFS loads BackstagePlugin from Legacy after NFS graduation (PluginRoot is NFS).
+          red-hat-developer-hub.backstage-plugin-orchestrator-form-widgets:
+            pluginModule: Legacy
+  # Tag: bs_1.52.0__1.7.2, Build date: 2026-05-26T12:37:27Z
+  - package: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scaffolder-backend-module-orchestrator@sha256:2c1fd0c1b204cde636fbb15b57da1fd561812de6d22c153141f9576425a287e4
     enabled: false
     pluginConfig:
       orchestrator:
