@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "catalog-index-image": "quay.io/rhdh-community/plugin-catalog-index:2.0-bs_1.52.0-ac1a9a5"
+    "catalog-index-image": "quay.io/rhdh-community/plugin-catalog-index:2.0-bs_1.52.0-f9ae0fa"
   },
   "plugins": {
     "red-hat-developer-hub-backstage-plugin-adoption-insights-backend": {
