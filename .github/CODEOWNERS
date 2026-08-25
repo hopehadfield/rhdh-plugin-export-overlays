@@ -48,7 +48,7 @@
 /workspaces/config-viewer                                               @redhat-developer/rhdh-ui @christoph-jerolimov
 /workspaces/cost-management                                             @ydayagi @mareklibra @batzionb @PreetiW @asmasarw @Aurobinda55 @r14chandra @kgaikwad
 /workspaces/dynatrace                                                   @redhat-developer/rhdh-cope
-# /workspaces/dynatrace-dql
+/workspaces/dynatrace-dql                                               @heinzburgstaller @denys-veklych @dietmar-91 @MrManny
 /workspaces/env-viewer                                                  @redhat-developer/rhdh-ui @christoph-jerolimov
 /workspaces/extensions                                                  @redhat-developer/rhdh-ui @redhat-developer/rhdh-plugins
 /workspaces/github                                                      @redhat-developer/rhdh-ui @divyanshiGupta
