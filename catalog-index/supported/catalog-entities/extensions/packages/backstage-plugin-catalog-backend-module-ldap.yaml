@@ -16,13 +16,13 @@ metadata:
   tags:
     - software-catalog
 spec:
-  packageName: '@backstage/plugin-catalog-backend-module-ldap'
-  # Tag: bs_1.52.0__0.12.6, Build date: 2026-05-27T17:34:52Z
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-plugin-catalog-backend-module-ldap@sha256:f35bb220b2bd0c71fdddf046cac9dbffd34f9254b1535bc32e63c7be6784f040"
-  version: 0.12.6
+  packageName: "@backstage/plugin-catalog-backend-module-ldap"
+  # Tag: bs_1.54.6__0.12.8, Build date: 2026-05-27T17:34:52Z
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-plugin-catalog-backend-module-ldap@sha256:241edbf684b1f82105f62f2b9f72e0c05a7fa3952202b76c221070ca959b06d7"
+  version: 0.12.8
   backstage:
     role: backend-plugin-module
-    supportedVersions: 1.52.0
+    supportedVersions: 1.54.6
   author: Red Hat
   support: generally-available
   lifecycle: active
