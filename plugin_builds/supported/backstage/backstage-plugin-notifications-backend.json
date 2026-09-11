@@ -2,7 +2,7 @@
   "backstage-plugin-notifications-backend": {
     "workspacePath": "backstage/plugins/notifications-backend",
     "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-plugin-notifications-backend:bs_1.54.6__0.6.8",
-    "digest": "sha256:0476c153e4d619dc63a5df771b36ff2ae041f65d6502de88a7788ac7e45ba139",
+    "digest": "sha256:dacb4100a883cc5ad4132f9457cfa18582800ba8dee7fd4a8e0ab175792a7104",
     "build-date": "2026-05-27T17:01:49Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ 9d0195bb8b4c4ad2a168fa43fa54e53b6c589494",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",

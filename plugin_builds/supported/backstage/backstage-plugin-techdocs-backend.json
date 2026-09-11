@@ -2,7 +2,7 @@
   "backstage-plugin-techdocs-backend": {
     "workspacePath": "backstage/plugins/techdocs-backend",
     "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-plugin-techdocs-backend:bs_1.54.6__2.2.4",
-    "digest": "sha256:b012199338c72131f040636b2c33d4d140e100ad3da6814ea438cd5387652171",
+    "digest": "sha256:b23d9984356a8475b7a8833e51436b432c1d605455c3efad253886bdd3ecf8d1",
     "build-date": "2026-05-27T17:35:09Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ 9d0195bb8b4c4ad2a168fa43fa54e53b6c589494",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",

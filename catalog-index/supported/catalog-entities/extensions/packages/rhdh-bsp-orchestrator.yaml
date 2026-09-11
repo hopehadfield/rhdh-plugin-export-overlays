@@ -19,7 +19,7 @@ spec:
   packageName: '@red-hat-developer-hub/backstage-plugin-orchestrator'
 
   # Tag: bs_1.54.6__6.1.0, Build date: 2026-05-22T19:45:48Z
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator@sha256:0eff2066cc8d17775ae456567e6ba4b629d26c4e37998f0a0076f8e6cf305afd"
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator@sha256:5d46733680662685e4157ae11a7181938085ff1eeaf907ef325617ea249b0998"
   version: 6.1.0
   backstage:
     role: frontend-plugin
