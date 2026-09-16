@@ -16,12 +16,12 @@ metadata:
   tags: []
 spec:
   packageName: '@red-hat-developer-hub/backstage-plugin-extensions'
-  # Tag: bs_1.52.1__0.19.1, Build date: 2026-05-22T19:38:22Z
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-extensions@sha256:46aa8374cc991ac90fb93eca2261d0a8198fed85507693ef930b361d0224997c"
-  version: 0.19.1
+  # Tag: bs_1.54.6__0.20.0, Build date: 2026-05-22T19:38:22Z
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-extensions@sha256:3aefc78e98cb5f60659e870aa7f76595ae16e9aff5bfba98271ec330b2e88885"
+  version: 0.20.0
   backstage:
     role: frontend-plugin
-    supportedVersions: 1.52.0
+    supportedVersions: 1.54.6
   author: Red Hat
   support: tech-preview
   lifecycle: active

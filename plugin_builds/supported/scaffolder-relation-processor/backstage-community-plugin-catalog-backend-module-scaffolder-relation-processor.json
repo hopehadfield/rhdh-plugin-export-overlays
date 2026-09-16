@@ -2,7 +2,7 @@
   "backstage-community-plugin-catalog-backend-module-scaffolder-relation-processor": {
     "workspacePath": "scaffolder-relation-processor/plugins/catalog-backend-module-scaffolder-relation-processor",
     "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-catalog-backend-module-scaffolder-relation-processor:bs_1.54.6__2.17.1",
-    "digest": "sha256:9c0319d57387a6b4ffad61af087036974f0842892758d2d7abc123643c689501",
+    "digest": "sha256:b680fd10a5af40b7309af2f8399ae563764254bc1bf8e1066263374620614bd5",
     "build-date": "2026-05-27T17:43:56Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ 9d0195bb8b4c4ad2a168fa43fa54e53b6c589494",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",
