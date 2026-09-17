@@ -2,7 +2,7 @@
   "red-hat-developer-hub-backstage-plugin-orchestrator": {
     "workspacePath": "orchestrator/plugins/orchestrator",
     "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-orchestrator:bs_1.54.6__6.2.1",
-    "digest": "sha256:6cdfa5fb90256b336876a813e60bc1b447fa2932f225410336181b025dbd9f27",
+    "digest": "sha256:3c9d32bb84ea3c2dbd48f69c671bc0dd995d73a724d1669f1a1d537c23ed8a37",
     "build-date": "2026-05-22T19:45:48Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ a7bb86b75564741f484bfddd5bd2af3bcabfa7b9",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",
