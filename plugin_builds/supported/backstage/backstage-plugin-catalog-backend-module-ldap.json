@@ -2,7 +2,7 @@
   "backstage-plugin-catalog-backend-module-ldap": {
     "workspacePath": "backstage/plugins/catalog-backend-module-ldap",
     "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-plugin-catalog-backend-module-ldap:bs_1.54.6__0.12.8",
-    "digest": "sha256:625019bc8ee9a4df4fb1334eee07e0b484b3e5a29260a0764b185c084b707eb7",
+    "digest": "sha256:0d0ef4b729de86d760dd69d8a3ca351543f0063e1c94dfd03c9d57997288d798",
     "build-date": "2026-05-27T17:34:52Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ 9d0195bb8b4c4ad2a168fa43fa54e53b6c589494",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",

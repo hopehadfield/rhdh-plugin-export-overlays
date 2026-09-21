@@ -18,7 +18,7 @@ metadata:
 spec:
   packageName: "@backstage-community/plugin-catalog-backend-module-pingidentity"
   # Tag: bs_1.54.6__0.15.0, Build date: 2026-05-27T17:42:07Z
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-catalog-backend-module-pingidentity@sha256:a8e961557b4bfdf130903b29106960998421a4e8dc96aa31827d803624a5bf76"
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-catalog-backend-module-pingidentity@sha256:847f7d4b8819c87d7195ff83338a12a8dfe353b7fea08189a007cdd88798327c"
   version: 0.15.0
   backstage:
     role: backend-plugin-module

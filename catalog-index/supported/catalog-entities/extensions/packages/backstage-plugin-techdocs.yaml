@@ -17,7 +17,7 @@ metadata:
 spec:
   packageName: "@backstage/plugin-techdocs"
   # Tag: bs_1.54.6__1.18.0, Build date: 2026-05-27T17:45:35Z
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-plugin-techdocs@sha256:618aa39f3bf1a0dfab4279b3ab3b6809e4fa1ceca7773a950bd8e5510d5d9668"
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-plugin-techdocs@sha256:07dd6b255ff44e1e98dba7ddc3125445f971a889ca2ddcef72aa4c881fbcc166"
   version: 1.18.0
   backstage:
     role: frontend-plugin

@@ -18,7 +18,7 @@ metadata:
 spec:
   packageName: "@red-hat-developer-hub/backstage-plugin-scorecard"
   # Tag: bs_1.54.6__4.3.1
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard@sha256:74282c3368c70af01b666e243c906dcf05a14e0d4f887c07eb795bac34b6c1b7"
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard@sha256:dc1914636fe7bd1a405fe5245eea4d52aa474db463c9a1c9274ec8467d06c288"
   version: 4.3.1
   backstage:
     role: frontend-plugin
