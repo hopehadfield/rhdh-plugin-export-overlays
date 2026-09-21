@@ -2,7 +2,7 @@
   "backstage-plugin-catalog-backend-module-msgraph": {
     "workspacePath": "backstage/plugins/catalog-backend-module-msgraph",
     "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-plugin-catalog-backend-module-msgraph:bs_1.54.6__0.10.5",
-    "digest": "sha256:9d7df28f25eb624f0a89fc6a5f2f3f7cffdb7a050b80bea3c7dc92506656d992",
+    "digest": "sha256:5defdc1c35e5c42bf9eed8d183846e23721ea674db5ab79de61a91e7cfccaa97",
     "build-date": "2026-05-27T17:41:21Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ 9d0195bb8b4c4ad2a168fa43fa54e53b6c589494",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",

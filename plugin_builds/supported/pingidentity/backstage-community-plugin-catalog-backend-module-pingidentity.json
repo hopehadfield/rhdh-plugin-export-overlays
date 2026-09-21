@@ -2,7 +2,7 @@
   "backstage-community-plugin-catalog-backend-module-pingidentity": {
     "workspacePath": "pingidentity/plugins/catalog-backend-module-pingidentity",
     "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-catalog-backend-module-pingidentity:bs_1.54.6__0.15.0",
-    "digest": "sha256:d59c166f9030bba24d0945c987d1cb4cdda453dd81a15e62044015e5ab9b1267",
+    "digest": "sha256:a8e961557b4bfdf130903b29106960998421a4e8dc96aa31827d803624a5bf76",
     "build-date": "2026-05-27T17:42:07Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ 9d0195bb8b4c4ad2a168fa43fa54e53b6c589494",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",

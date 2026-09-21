@@ -2,7 +2,7 @@
   "backstage-community-plugin-topology": {
     "workspacePath": "topology/plugins/topology",
     "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-topology:bs_1.54.6__3.0.1",
-    "digest": "sha256:fcf0e0252c75ef1da99fdb1a0d9e3d8285a74887090dec2ebe51206e66e9183c",
+    "digest": "sha256:1be11018c456107d0d6f0870109468cf9b719f15d9552b1d11812536ce548b1a",
     "build-date": "2026-05-22T19:37:37Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ a7bb86b75564741f484bfddd5bd2af3bcabfa7b9",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",
