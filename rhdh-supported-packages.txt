@@ -24,9 +24,11 @@ pingidentity/plugins/auth-backend-module-pingfederate-provider
 backstage/plugins/catalog-backend-module-github
 backstage/plugins/catalog-backend-module-github-org
 backstage/plugins/catalog-backend-module-ldap
+backstage/plugins/kubernetes
 backstage/plugins/kubernetes-backend
 backstage/plugins/notifications
 backstage/plugins/notifications-backend
+backstage/plugins/org
 backstage/plugins/signals
 backstage/plugins/signals-backend
 backstage/plugins/techdocs
@@ -75,8 +77,6 @@ tech-radar/plugins/tech-radar-backend
 bulk-import/plugins/bulk-import
 bulk-import/plugins/bulk-import-backend
 
-# currently TP but moving to GA in 1.10
-backstage/plugins/kubernetes
 
 backstage/plugins/notifications-backend-module-email
 backstage/plugins/scaffolder-backend-module-github
@@ -101,10 +101,10 @@ intelligent-assistant/plugins/intelligent-assistant-backend
 # Scorecard plugins (TP in 2.1)
 scorecard/plugins/scorecard
 scorecard/plugins/scorecard-backend
-scorecard/plugins/scorecard-backend-module-jira
-scorecard/plugins/scorecard-backend-module-github
-scorecard/plugins/scorecard-backend-module-openssf
-scorecard/plugins/scorecard-backend-module-filecheck
-scorecard/plugins/scorecard-backend-module-sonarqube
 scorecard/plugins/scorecard-backend-module-dependabot
 scorecard/plugins/scorecard-backend-module-dora
+scorecard/plugins/scorecard-backend-module-filecheck
+scorecard/plugins/scorecard-backend-module-github
+scorecard/plugins/scorecard-backend-module-jira
+scorecard/plugins/scorecard-backend-module-openssf
+scorecard/plugins/scorecard-backend-module-sonarqube
