@@ -2,7 +2,7 @@
   "backstage-plugin-catalog-backend-module-gitlab": {
     "workspacePath": "backstage/plugins/catalog-backend-module-gitlab",
     "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-plugin-catalog-backend-module-gitlab:bs_1.54.6__0.8.7",
-    "digest": "sha256:be9902f815695337b629c75ddc7b36319e497d4dace9dd7d228820cb6d95f445",
+    "digest": "sha256:cf7c424dc6c3f9479dc66a0b5873b80609c2e42369712c9efed9a7abab3fe75e",
     "build-date": "2026-05-27T17:33:44Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ 9d0195bb8b4c4ad2a168fa43fa54e53b6c589494",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",
