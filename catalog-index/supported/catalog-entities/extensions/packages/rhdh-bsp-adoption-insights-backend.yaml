@@ -17,7 +17,7 @@ metadata:
 spec:
   packageName: "@red-hat-developer-hub/backstage-plugin-adoption-insights-backend"
   # Tag: bs_1.54.6__1.0.4, Build date: 2026-05-22T19:38:29Z
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-adoption-insights-backend@sha256:7f7f095de1996589024039114fdbfb6cfa78ce74b223a33d62a8a7ed419ffda6"
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-adoption-insights-backend@sha256:3419d24ec0c783eca2da50917d3a68c39649b49374ec58b3d2c764faf35c9d0a"
   version: 1.0.4
   backstage:
     role: backend-plugin

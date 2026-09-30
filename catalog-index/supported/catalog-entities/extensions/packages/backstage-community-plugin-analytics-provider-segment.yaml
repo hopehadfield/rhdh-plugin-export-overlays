@@ -16,11 +16,11 @@ metadata:
   tags: []
 spec:
   packageName: "@backstage-community/plugin-analytics-provider-segment"
-  # Tag: bs_1.54.6__1.31.1, Build date: 2026-05-22T19:54:37Z
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-analytics-provider-segment@sha256:c2b88a7fc22a3fb529344e0065d83ba55be1a4f845d1277ed50f163e99116113"
-  version: 1.31.1
+  # Tag: bs_1.54.6__2.0.0, Build date: 2026-05-22T19:54:37Z
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-analytics-provider-segment@sha256:00f2faaa0f76886b5d01d2d03d0f6af5cffb2deb88c9b53336d0f60aa1d59606"
+  version: 2.0.0
   backstage:
-    role: frontend-plugin
+    role: frontend-plugin-module
     supportedVersions: 1.54.6
   author: Red Hat
   support: generally-available
@@ -30,11 +30,6 @@ spec:
   appConfigExamples:
     - title: Default configuration
       content:
-        dynamicPlugins:
-          frontend:
-            backstage-community.plugin-analytics-provider-segment:
-              analyticsApiExtensions:
-                - importName: SegmentAnalytics
         backend:
           csp:
             script-src:

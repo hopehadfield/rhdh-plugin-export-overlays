@@ -18,7 +18,7 @@ metadata:
 spec:
   packageName: "@roadiehq/scaffolder-backend-module-utils"
   # Tag: bs_1.54.6__4.1.2
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-scaffolder-backend-module-utils@sha256:3277cab670e2f63233079a39298a45e95fc0e5348661bc31a28a7ffeed23116c"
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-scaffolder-backend-module-utils@sha256:99d7dbb041430d15eb1f23c9890453af08ec5fed71e41b4bb50ec83820fc9f2c"
   version: 4.1.2
   backstage:
     role: backend-plugin-module
