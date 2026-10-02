@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "catalog-index-image": "quay.io/rhdh-community/plugin-catalog-index:2.2-bs_1.54.6-a4101f0"
+    "catalog-index-image": "quay.io/rhdh-community/plugin-catalog-index:2.2-bs_1.54.9-7580c89"
   },
   "plugins": {
     "red-hat-developer-hub-backstage-plugin-adoption-insights-backend": {
@@ -1278,7 +1278,7 @@
         "validate": {
           "status": "pass",
           "warnings": [
-            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend-module-dependabot' resolved to bs_1.54.6__1.1.1 after bs_1.54.6__1.1.2 was not found \u2014 the index ships an older build"
+            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend-module-dependabot' resolved to bs_1.54.6__1.1.1 after bs_1.54.6__1.1.2 was not found — the index ships an older build"
           ]
         }
       },
@@ -1306,7 +1306,7 @@
         "validate": {
           "status": "pass",
           "warnings": [
-            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend-module-filecheck' resolved to bs_1.54.6__1.1.1 after bs_1.54.6__1.1.2 was not found \u2014 the index ships an older build"
+            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend-module-filecheck' resolved to bs_1.54.6__1.1.1 after bs_1.54.6__1.1.2 was not found — the index ships an older build"
           ]
         }
       },
@@ -1334,7 +1334,7 @@
         "validate": {
           "status": "pass",
           "warnings": [
-            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend-module-github' resolved to bs_1.54.6__4.3.1 after bs_1.54.6__4.4.0 was not found \u2014 the index ships an older build"
+            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend-module-github' resolved to bs_1.54.6__4.3.1 after bs_1.54.6__4.4.0 was not found — the index ships an older build"
           ]
         }
       },
@@ -1362,7 +1362,7 @@
         "validate": {
           "status": "pass",
           "warnings": [
-            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend-module-jira' resolved to bs_1.54.6__4.3.1 after bs_1.54.6__4.4.0 was not found \u2014 the index ships an older build"
+            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend-module-jira' resolved to bs_1.54.6__4.3.1 after bs_1.54.6__4.4.0 was not found — the index ships an older build"
           ]
         }
       },
@@ -1390,7 +1390,7 @@
         "validate": {
           "status": "pass",
           "warnings": [
-            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend-module-openssf' resolved to bs_1.54.6__1.1.1 after bs_1.54.6__1.1.2 was not found \u2014 the index ships an older build"
+            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend-module-openssf' resolved to bs_1.54.6__1.1.1 after bs_1.54.6__1.1.2 was not found — the index ships an older build"
           ]
         }
       },
@@ -1418,7 +1418,7 @@
         "validate": {
           "status": "pass",
           "warnings": [
-            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend-module-sonarqube' resolved to bs_1.54.6__4.3.1 after bs_1.54.6__4.4.0 was not found \u2014 the index ships an older build"
+            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend-module-sonarqube' resolved to bs_1.54.6__4.3.1 after bs_1.54.6__4.4.0 was not found — the index ships an older build"
           ]
         }
       },
@@ -1446,7 +1446,7 @@
         "validate": {
           "status": "pass",
           "warnings": [
-            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend' resolved to bs_1.54.6__4.3.1 after bs_1.54.6__4.4.0 was not found \u2014 the index ships an older build"
+            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend' resolved to bs_1.54.6__4.3.1 after bs_1.54.6__4.4.0 was not found — the index ships an older build"
           ]
         }
       },
@@ -1474,7 +1474,7 @@
         "validate": {
           "status": "pass",
           "warnings": [
-            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard' resolved to bs_1.54.6__4.3.1 after bs_1.54.6__4.4.0 was not found \u2014 the index ships an older build"
+            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard' resolved to bs_1.54.6__4.3.1 after bs_1.54.6__4.4.0 was not found — the index ships an older build"
           ]
         }
       },
@@ -1656,7 +1656,7 @@
         "validate": {
           "status": "pass",
           "warnings": [
-            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend-module-dora' resolved to bs_1.54.6__0.1.1 after bs_1.54.6__0.2.0 was not found \u2014 the index ships an older build"
+            "[fallback-tag] 'red-hat-developer-hub-backstage-plugin-scorecard-backend-module-dora' resolved to bs_1.54.6__0.1.1 after bs_1.54.6__0.2.0 was not found — the index ships an older build"
           ]
         }
       },
