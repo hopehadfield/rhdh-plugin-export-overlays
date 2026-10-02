@@ -17,8 +17,8 @@ metadata:
     - software-templates
 spec:
   packageName: "@backstage-community/plugin-scaffolder-backend-module-kubernetes"
-  # Tag: bs_1.54.6__2.21.0, Build date: 2026-05-27T17:34:23Z
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-scaffolder-backend-module-kubernetes@sha256:5c70f890ee524f418bade5f58e9888010b3bca666299ea00d09a643cf9f712f0"
+  # Tag: bs_1.54.9__2.21.0, Build date: 2026-05-27T17:34:23Z
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-scaffolder-backend-module-kubernetes@sha256:c2252366f4606309bede134d36fd8b3afd9532a5e2c8d7e034559588426511a3"
   version: 2.21.0
   backstage:
     role: backend-plugin-module

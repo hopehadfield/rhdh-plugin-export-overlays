@@ -16,8 +16,8 @@ metadata:
   tags: []
 spec:
   packageName: "@red-hat-developer-hub/backstage-plugin-bulk-import-backend"
-  # Tag: bs_1.54.6__9.1.1, Build date: 2026-05-22T19:40:00Z
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-bulk-import-backend@sha256:f21e3ff19389e9a28c9ac0f65d0797ef84090e9a26b596512dd921ded07f2d7b"
+  # Tag: bs_1.54.9__9.1.1, Build date: 2026-05-22T19:40:00Z
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-bulk-import-backend@sha256:d9018eeb76a2defb0b006eabbc3d4b1fbeb7370f8bcd0c0eea3395b65174dd23"
   version: 9.1.1
   backstage:
     role: backend-plugin
