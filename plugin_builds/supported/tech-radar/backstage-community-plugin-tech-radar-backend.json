@@ -2,7 +2,7 @@
   "backstage-community-plugin-tech-radar-backend": {
     "workspacePath": "tech-radar/plugins/tech-radar-backend",
     "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-tech-radar-backend:bs_1.54.9__1.21.0",
-    "digest": "sha256:f8bf4c6735d1e4c5be5fa422b339db1e4bef6c886149abae6bf3dc761eb45c99",
+    "digest": "sha256:fb7626f6f02a9429ada4054f8b5e59bbbbca147dd8fc71adf06c33b9cd113413",
     "build-date": "2026-05-22T19:35:41Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ a7bb86b75564741f484bfddd5bd2af3bcabfa7b9",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",

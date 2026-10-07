@@ -2,7 +2,7 @@
   "red-hat-developer-hub-backstage-plugin-homepage-backend": {
     "workspacePath": "homepage/plugins/homepage-backend",
     "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-homepage-backend:bs_1.54.9__0.5.0",
-    "digest": "sha256:466477e663ac5d39863dda3de63b10a8e201426b41799ed419a3fa2a5ac77b2d",
+    "digest": "sha256:dfdb7aaef7c634a2d97474ad25ea5910f87a43e7c1679a8ee9b891cb86ff4aa9",
     "build-date": "2026-05-22T19:50:42Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/release-1.10 @ a7bb86b75564741f484bfddd5bd2af3bcabfa7b9",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1.10-rhel-9",
