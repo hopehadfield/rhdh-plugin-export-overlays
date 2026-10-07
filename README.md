@@ -114,7 +114,7 @@ Sometimes, additional configuration is required in the PR:
 
 - **Any plugin** may need:
    - Overlay source files in an `overlay` directory
-  (e.g., [`api-docs-module-protoc-gen-doc`](./workspaces/backstage/plugins/api-docs-module-protoc-gen-doc/overlay))
+  (e.g., [`gitlab-backend`](./workspaces/gitlab/packages/gitlab-backend/overlay))
   - Patches (`*.patch`) in the `patches` directory of the workspace folder, to modify the workspace source code before the whole build and packaging process. (Example: [roadie backstage plugins](./workspaces/roadie-backstage-plugins/patches/1-avoid-double-wildcards.patch))
 
 > **Overlay vs. Patch**
@@ -180,6 +180,10 @@ This creates `backstage.json` with the target version and updates all metadata O
 #### Once Testing Is Complete:
 - If the plugin works with RHDH (either via automatic or manual testing), **change the label** to `tested`
 - Once the PR is merged, the final OCI artifact will be published with the tag: `bs_<backstage_version>__<plugin_version>`
+
+## E2E secrets
+
+For local secret loading and this repository's naming conventions, see [09 - Managing E2E Secrets](./user-guide/09-managing-e2e-secrets.md). Authentication and secret lifecycle operations are documented in the [upstream Secrets API](https://redhat-developer.github.io/rhdh-e2e-test-utils/api/secrets.html).
 
 ## E2E coverage anchors
 
