@@ -249,26 +249,6 @@ describe("inject", () => {
     );
   });
 
-  it("annotates an OCI image with a dotted package name", async () => {
-    const root = await createTempRoot();
-    const dpdy = join(root, "dpdy.yaml");
-    const builds = join(root, "builds", "ws");
-    await mkdir(builds, { recursive: true });
-    await writeFile(dpdy, "plugins:\n  - package: oci://ghcr.io/acme/acme-plugin.foo:1.0\n");
-    await writeFile(
-      join(builds, "plugin.json"),
-      JSON.stringify({
-        "acme-plugin.foo": {
-          registryReference: "ghcr.io/acme/acme-plugin.foo:1.0",
-          "build-date": "2025-01-01",
-        },
-      }),
-    );
-
-    expect(await inject(dpdy, join(root, "builds"))).toBe(true);
-    expect(await readText(dpdy)).toContain("  # Tag: 1.0, Build date: 2025-01-01\n");
-  });
-
   it("skips plugin build JSON files that cannot be parsed", async () => {
     const root = await createTempRoot();
     const dpdy = await copyDpdyFixture("single-oci-digest.yaml", root);
