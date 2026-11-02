@@ -249,17 +249,17 @@ def peek_digest_after(lines: list[str], idx: int) -> str | None:
 def inject_dpdy_tag_comments(output_dir: Path, plugin_builds_dir: Path) -> None:
     """Delegate to inject-dpdy-tag-comments to add Tag/Build date comments to dynamic-plugins.default.yaml."""
     dpdy = output_dir / "dynamic-plugins.default.yaml"
-    scripts_dir = Path(__file__).resolve().parent
-    script = scripts_dir / "inject-dpdy-tag-comments" / "src" / "inject.ts"
     if not dpdy.is_file():
         return
-    if not script.is_file():
-        raise FileNotFoundError(f"Inject script not found: {script}")
+    scripts_dir = Path(__file__).resolve().parent
     before = dpdy.read_text(encoding="utf-8")
     subprocess.run(
         [
-            "vp", "exec", "inject-dpdy-tag-comments",
-            str(dpdy.resolve()), str(plugin_builds_dir.resolve()),
+            "vp",
+            "exec",
+            "inject-dpdy-tag-comments",
+            str(dpdy.resolve()),
+            str(plugin_builds_dir.resolve()),
         ],
         cwd=scripts_dir,
         check=True,

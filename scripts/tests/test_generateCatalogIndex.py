@@ -1,9 +1,11 @@
 """Tests for pure-logic functions in generateCatalogIndex.py."""
 
 import subprocess
+from pathlib import Path
 
 import pytest
 
+import generateCatalogIndex as generate_catalog_index_module
 from generateCatalogIndex import (
     build_digest_comment_map,
     digest_from_oci_package_line,
@@ -28,9 +30,9 @@ def test_inject_failure_stops_catalog_generation(tmp_path, monkeypatch):
 
     def failed_inject(command, **kwargs):
         assert command[:3] == ["vp", "exec", "inject-dpdy-tag-comments"]
-        assert command[3:] == [str(dpdy), str(builds)]
+        assert command[3:] == [str(dpdy.resolve()), str(builds.resolve())]
         assert kwargs["check"] is True
-        assert kwargs["cwd"].name == "scripts"
+        assert kwargs["cwd"] == Path(generate_catalog_index_module.__file__).resolve().parent
         raise subprocess.CalledProcessError(1, command)
 
     monkeypatch.setattr("generateCatalogIndex.subprocess.run", failed_inject)
