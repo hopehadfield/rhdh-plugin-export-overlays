@@ -1,12 +1,14 @@
 // Catalog-index subset of https://github.com/distribution/reference (see reference.go, regexp.go).
 
-const domainLabel = `[a-z0-9](?:[a-z0-9-]*[a-z0-9])?`;
-const registryHost = `${domainLabel}(?:\\.${domainLabel})*(?::[0-9]+)?`;
-// Distribution repository names allow periods, underscores (including double
-// underscores), and runs of hyphens between alphanumeric components.
-const pathSegment = `[a-z0-9]+(?:(?:[._]|__|-+)[a-z0-9]+)*`;
-const repositoryPath = `${pathSegment}(?:/${pathSegment})*`;
-const tagSegment = `[\\w][\\w.-]{0,127}`;
+const alphanumeric = `[a-z0-9]+`;
+const separator = `(?:[._]|__|[-]+)`;
+const pathComponent = `${alphanumeric}(?:${separator}${alphanumeric})*`;
+const remoteName = `${pathComponent}(?:/${pathComponent})*`;
+const domainNameComponent = `[a-z0-9](?:[a-z0-9-]*[a-z0-9])?`;
+const domainName = `${domainNameComponent}(?:\\.${domainNameComponent})*`;
+const optionalPort = `(?::[0-9]+)?`;
+const domainAndPort = `${domainName}${optionalPort}`;
+const tag = `[\\w][\\w.-]{0,127}`;
 const digest = `sha256:[0-9a-fA-F]{64}`;
 
 function optional(...parts: string[]): string {
@@ -18,10 +20,10 @@ function anchored(...parts: string[]): string {
 }
 
 const reference = anchored(
-  registryHost,
+  domainAndPort,
   "/",
-  `(?<path>${repositoryPath})`,
-  optional(":", `(?<tag>${tagSegment})`),
+  `(?<path>${remoteName})`,
+  optional(":", `(?<tag>${tag})`),
   optional("@", digest),
 );
 
