@@ -249,25 +249,6 @@ describe("inject", () => {
     );
   });
 
-  it("skips an empty build date rather than writing an empty comment", async () => {
-    const root = await createTempRoot();
-    const dpdy = await copyDpdyFixture("single-oci-digest.yaml", root);
-    const builds = join(root, "builds", "ws");
-    await mkdir(builds, { recursive: true });
-    await writeFile(
-      join(builds, "catalog.json"),
-      JSON.stringify({
-        "red-hat-developer-hub-backstage-plugin-catalog": {
-          registryReference: "quay.io/rhdh/red-hat-developer-hub-backstage-plugin-catalog:1.0",
-          "build-date": "",
-        },
-      }),
-    );
-
-    await expect(inject(dpdy, join(root, "builds"))).rejects.toThrow("No plugin build tags found");
-    expect(await readText(dpdy)).not.toContain("# Tag:");
-  });
-
   it("annotates an OCI image with a dotted package name", async () => {
     const root = await createTempRoot();
     const dpdy = join(root, "dpdy.yaml");

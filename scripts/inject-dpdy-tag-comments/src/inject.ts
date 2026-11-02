@@ -158,8 +158,7 @@ function tagInfoFromPluginBuildEntry(value: unknown): TagInfo | null {
   if (
     !isPlainObject(value) ||
     typeof value.registryReference !== "string" ||
-    typeof value["build-date"] !== "string" ||
-    value["build-date"].length === 0
+    typeof value["build-date"] !== "string"
   ) {
     return null;
   }
